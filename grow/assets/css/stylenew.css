@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'ibm-plex';
+  src: url('./fonts/ibm-plex-mono-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'neue-helvetica-light';
+  src: url('./fonts/neue-helvetica-light.woff2') format('woff2');
+}
+@font-face{
+	font-family: 'neue-helvetica-regular';
+	src: url('./fonts/neue-helvetica-regular.woff2') format('woff2');
+}
+:root{
+	--font-ibm: 'ibm-plex';
+	--font-neue-regular: 'neue-helvetica-regular';
+	--font-neue-light: 'neue-helvetica-light';
+}
+
+.main-heading-style{
+	font-size: 6.8rem !important;
+    line-height: 1em !important;
+    font-weight: 300!important;
+    margin-bottom: 3%;
+}
+.color-white{
+	color: #fff;
+}
+.para-font-ibm{
+	font-family: var(--font-ibm)!important;
+    line-height: 1.6!important;
+    letter-spacing: 2px!important;
+    font-weight: 300!important;
+    font-size: 1.12rem!important;
+}
+.second-heading-style{
+  font-size: 3.8rem !important;
+    line-height: 1em !important;
+    font-weight: 300!important;
+    letter-spacing:1px!important;
+}
+.second-s-heading-style{
+  font-size: 2.8rem !important;
+    line-height: 1em !important;
+    font-weight: 300!important;
+    letter-spacing:1px!important;
+}
+.third-heading-style{
+  font-size: 1.8rem !important;
+    line-height: 1em !important;
+    font-weight: 300!important;
+    letter-spacing:1px!important;
+}
+.para-font-style{
+  line-height:1.6!important;
+  letter-spacing:2px!important;
+  font-weight:300!important;
+}
+.num-font-style{
+  font-size: 10.8rem !important;
+    line-height: 0.5 !important;
+    font-weight: 300!important;
+}
+.color-green{
+  color: #00a97b;
+}
+.ict-tabs .ict-p.active{
+  color: #00a97b;
+  border-bottom: 3px solid #00a97b;
+}
+.ict-tabs .tab_ict{
+  display: none;
+  justify-content: space-between;
+  grid-column: 1/3;
+}
+.ict-tabs .tab_ict.active{
+  display: flex;
+}
+.d-grid{
+  display: grid;
+}
+.grid-col-2{
+  grid-template-columns: max-content max-content;
+  justify-content: space-evenly;
+}
